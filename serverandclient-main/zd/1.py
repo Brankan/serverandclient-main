@@ -1,0 +1,7 @@
+email=open('emails.txt','r')
+g=email.read()
+email.close()
+g=str(g)
+t=g.split(',')
+bn=len(t)
+print(bn)
